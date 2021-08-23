@@ -1,0 +1,76 @@
+Lista de Exercícios 1
+
+
+1°) a = int(input('Número: '))
+b = int(input('Número: '))
+print ('A soma desses dois números é de:',a + b)
+
+
+
+2°) a = int(input('Metros: '))
+print ('valor em milímetros:',a*1000,'mm')
+
+
+
+3°) d = int(input('Dia: '))
+h = int(input('Horas: '))
+m = int(input('Minutos: '))
+s = int(input('Segundos: '))
+print ('O valor em segundos é de: ',d*86400 + h*3600 + m*60 + s,'s')
+
+
+
+4°) salario = int(input('Seu salário: '))
+aumento = int(input('Porcentagem do aumento: '))
+porcentagem = (aumento / 100)
+valor_aumento = salario * porcentagem
+print ('O aumento sera de: ', valor_aumento)
+print ('O salario atual sera de: ', salario + valor_aumento)
+
+
+5°) produto = int(input('Valor do produto R$: '))
+desconto = int(input('Porcentagem do desconto R: '))
+porcentagem = desconto/100
+valor_desconto = produto*porcentagem
+valor_produto = produto-valor_desconto
+print ('O desconto sera de R$: ', valor_desconto)
+print (f'O Valor sera de R$: {valor_produto:.2f}')
+
+
+6°) distancia = int(input('A distancia em km é: '))
+velocidade = int(input('A velocidade em é: '))
+tempo = (distancia/velocidade)
+print (f'O tempo de viagem é: {tempo:.2f}')   
+   
+
+7°) temperatura_c = int(input('A temperatura em C é de: '))
+temperatura_f = temperatura_c * 9 / 5 + 32
+print ('A temperatura em F é: ', temperatura_f)
+    
+
+8°) temperatura_f = int(input('A temperatura em F é: '))
+temperatura_c = (temperatura_f -32) *5/9 
+print (f'A temperatura em C é de: {temperatura_c:.2f}')
+    
+
+9°) kmp = int(input('Os km percorridos são: '))
+dias = int(input('Quantida de dias alugados: '))
+kmp_r = kmp * 0.15
+dias_a = dias * 60
+print (f'O valor sera de R$: {kmp_r + dias_a:.2f}')
+   
+
+10°) cigarros_d = int(input('Quantos cigarros você usa? '))
+cigarros_a = int(input('Quantos anos você fumou: '))
+tempo_d = (cigarros_d * 10) / 1440
+tempo_a = cigarros_a * 365 
+tempo_t = (tempo_d * tempo_a) 
+print (f'O tempo perdido em dias sera de: {tempo_t:.2f}')
+
+
+11°)a = 2**1000000
+b = str(a)
+c = len (b)
+print (c)
+
+          

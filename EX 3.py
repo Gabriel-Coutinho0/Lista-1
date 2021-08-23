@@ -1,0 +1,5 @@
+d = int(input('Dia: '))
+h = int(input('Horas: '))
+m = int(input('Minutos: '))
+s = int(input('Segundos: '))
+print ('O valor em segundos é de: ',d*86400 + h*3600 + m*60 + s,'s')
